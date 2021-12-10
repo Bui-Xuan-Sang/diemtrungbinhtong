@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Điểm trung bình tổng</title>
+</head>
+<body>
+<script>
+    var inputPhysical;
+    var inputChemistry;
+    var inputBiological;
+
+    inputPhysical = prompt("Nhập điểm Lý:");
+    inputChemistry = prompt("Nhập điểm hóa:");
+    inputBiological = prompt("Nhập điểm sinh:");
+    var Physical = parseInt(inputPhysical);
+    var Chemistry = parseInt(inputPhysical);
+    var Biological = parseInt(inputBiological);
+    var mediumscore = (Physical + Chemistry + Biological)/3;
+    var totalscore = Physical + Chemistry + Biological;
+    document.write("mediumscore = " + mediumscore);
+    document.write("totalscore = " + totalscore);
+</script>
+</body>
+</html>
